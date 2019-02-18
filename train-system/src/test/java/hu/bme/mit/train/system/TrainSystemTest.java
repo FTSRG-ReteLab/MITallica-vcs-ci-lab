@@ -1,5 +1,6 @@
 package hu.bme.mit.train.system;
 
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,6 +9,7 @@ import hu.bme.mit.train.interfaces.TrainController;
 import hu.bme.mit.train.interfaces.TrainSensor;
 import hu.bme.mit.train.interfaces.TrainUser;
 import hu.bme.mit.train.system.TrainSystem;
+import hu.bme.mit.train.interfaces.TrainTachograph;
 
 public class TrainSystemTest {
 
@@ -56,6 +58,5 @@ public class TrainSystemTest {
 		sensor.overrideSpeedLimit(50);
 		Assert.assertEquals(origSpeed, 50);
 	}
-
 	
 }
