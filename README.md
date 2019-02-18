@@ -1,5 +1,5 @@
 # This is a level one header
-You can use two asteriks for **bold** and one for *italic* (line changed on branch-A)
+You can use two asteriks for **bold** and one for *italic* (edited line on brach-B)
 
  
 # Train Speed Controller
